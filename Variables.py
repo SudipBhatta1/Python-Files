@@ -38,10 +38,12 @@ def scope_demo():
 MAX_VALUE = 100                    # Constants are usually uppercase
 PI = 3.14159
 
+
 # 8. Dynamic Typing
 dynamic_var = 100      # Integer
 dynamic_var = "Hello"  # Now it's a string
 dynamic_var = [1,2,3]  # Now it's a list
+
 
 # 9. Variable Memory Management
 import sys
@@ -80,3 +82,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
