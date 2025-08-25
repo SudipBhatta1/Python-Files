@@ -5,14 +5,12 @@ triple_quoted = '''This is a
 multi-line string'''
 raw_string = r"C:\Users\name"  # Raw string ignores escape characters
 
-
 # 2. String Concatenation
 full_greeting = single_quoted + ' ' + double_quoted
 formatted_string = f"{single_quoted} {double_quoted}!"
 print("String Concatenation:")
 print(full_greeting)
 print(formatted_string)
-
 
 # 3. String Methods
 text = "  Python Programming  "
@@ -72,5 +70,6 @@ print("\nEscape Characters:")
 print("Line1\nLine2")  # Newline
 print("Tab\tSpace")    # Tab
 print("Quote: \"Hello\"")  # Quotes
+
 
 
