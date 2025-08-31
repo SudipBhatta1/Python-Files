@@ -6,7 +6,7 @@ def generate_password(length=12, use_letters=True, use_numbers=True, use_symbols
     letters = string.ascii_letters
     numbers = string.digits
     symbols = string.punctuation
-    
+
     # Create character pool based on user preferences
     characters = ''
     if use_letters:
